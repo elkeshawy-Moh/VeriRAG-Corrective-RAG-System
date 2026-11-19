@@ -4,11 +4,12 @@
 
 # 🛡️ VeriRAG: Corrective Retrieval-Augmented Generation (CRAG) System
 
-[![Python](https://shields.io)](https://python.org)
-[![LangChain](https://shields.io)](https://langchain.com)
-[![FAISS](https://shields.io)](https://github.com)
-[![Groq](https://shields.io)](https://groq.com)
-[![Gradio](https://shields.io)](https://gradio.app)
+![Python](https://shields.io)
+![LangChain](https://shields.io)
+![FAISS](https://shields.io)
+![Groq](https://shields.io)
+![Gradio](https://shields.io)
+
 
 **VeriRAG** is an end-to-end **Corrective Retrieval-Augmented Generation (CRAG)** pipeline built with **LangChain**, **FAISS**, **Groq (Llama-3.3-70B)**, and **Gradio**. Unlike standard RAG systems that blindly trust retrieved chunks, VeriRAG evaluates document relevance before generation, automatically rewrites weak queries, and prevents hallucinations by refusing to answer when verified context is missing.
 
